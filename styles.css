@@ -1,0 +1,200 @@
+/* ===========================================================================
+  BODY
+/* ======================================================================== */
+
+html, body {
+  height: 100%;
+    }
+
+body {
+    color: #fff;
+    font-family: carme;
+    font-size: 16px;
+    }
+
+p {
+    margin-bottom: 15px;
+    }
+
+figure {
+    text-align: center;
+}
+
+a {
+    color: #cc3300;
+    font-weight: 400;
+}
+
+a:visited {
+    color: #cc3300;
+    font-weight: 400;
+}
+
+/* ===========================================================================
+  HEADERS
+/* ======================================================================== */
+
+h1,h2,h3,
+h4,h5,h6 {
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+h1 {
+    font-family: unifrakturcook;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    }
+
+h2 {
+    text-transform: uppercase;
+    font-family: carme;
+    font-weight: normal;
+    color: #ff6633;
+    }
+
+h3 {
+    font-family: Times New Roman, serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    padding: 0px;
+    
+}
+/* ===========================================================================
+  NAVIGATION & HEADER
+/* ======================================================================== */
+
+header img {
+    padding-top: 15px;
+}
+
+nav {
+    background-color: #000;
+    float: right;
+    height: 75px;
+    width: 600px;
+    }
+
+nav ul {
+    float: right;
+    list-style: none;
+    line-height: 4.5em;
+    margin-right: 30px;
+    }
+
+nav ul li {
+    padding-left: 30px;
+    display: inline;
+}
+
+nav ul li a {
+    border-bottom: 3px solid #cc3300;
+    color: #ffffff;
+    padding-bottom: 10px;
+    text-decoration: none;
+    }
+
+nav ul li a:visited {
+    color: #ffffff;
+}
+
+/* ===========================================================================
+  MAIN
+/* ======================================================================== */
+
+section {
+    text-align: center;
+    }
+
+.logo {
+    max-width: 900px;
+    width: 100%;
+    margin-top: 100px;
+    }
+
+.signature {
+    font-family: dawning-of-a-new-day, Times New Roman, serif;
+    font-size: 30px;
+}
+
+#info {
+    font-size: 14px;
+    line-height: 25px;
+    margin-left: 20px;
+    padding: 175px 50px 200px 50px;
+    text-align: left;
+    z-index: 5;
+    }
+
+#image {
+    background-color: #c0c0c0;
+    background-image: url(valkyrie.jpg);
+    background-size: cover;
+    height: 1400px;
+    position: fixed;
+    }
+
+#image-beer {
+    background-color: #c0c0c0;
+    background-image: url(glass.jpg);
+    background-size: cover;
+    height: 1400px;
+    position: fixed;
+    }
+
+#image-events {
+    background-color: #c0c0c0;
+    background-image: url(norsemen-bg.jpg);
+    background-size: cover;
+    height: 1400px;
+    position: fixed;
+    }
+
+#image-contact {
+    background-color: #c0c0c0;
+    background-image: url(rusticdoor-bg.jpg);
+    background-size: cover;
+    height: 1400px;
+    position: fixed;
+    }
+
+
+/* ===========================================================================
+  FOOTER
+/* ======================================================================== */
+
+footer {
+    background-color: #000;
+    bottom: 0px;
+    color: #666;
+    line-height: 3em;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    }
+
+.copyright {
+    text-align: right;
+    }
+
+.social img {
+    margin-top: 15px;
+    padding-left: 5px;
+    width: 32px;
+}
+
+/* ===========================================================================
+  TABLES
+/* ======================================================================== */
+
+th {
+    padding: 5px;
+    }
+
+.gray {
+    background-color: #e6e6e6;
+}
+

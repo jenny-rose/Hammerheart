@@ -1,0 +1,87 @@
+<!-- 
+
+    AUTHOR: Jenny Coffman
+    DATE: 04/29/14
+    PROJECT: Web Design & Development I, Final Project
+    GOAL: Make a website of my own choosing utilizing all of the material
+    covered in class. Display basic knowledge of HTML and CSS
+
+-->
+
+<!DOCTYPE html>
+<head>
+    <title>Hammerheart Brewing Company: Our Saga</title>
+    <link href="grid.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="http://use.edgefonts.net/carme:n4:all;dawning-of-a-new-day:n4:all;unifrakturcook:n7:all.js"></script>
+    
+    <style type="text/css">
+        
+        body {
+            color: #000;
+        }
+        
+        header {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            background-color: #000000;
+            height: 100px;
+            width: 100%;
+            z-index: 1000;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container" class="page-wrap frame">
+        <header>
+            <div id="logo" class="bit-2" style="float: left">
+                <img src="text-logo.png" alt="Hammerheart logo" />
+            </div>
+            <nav class="bit-2">
+                <ul>
+                    <li><a href="index.htm">HOME</a></li>
+                    <li><a href="saga.htm">OUR SAGA</a></li>
+                    <li><a href="beer.htm">THE BEERS</a></li>
+                    <li><a href="events.htm">UPCOMING EVENTS</a></li>
+                    <li><a href="contact.htm">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="image" class="bit-70">
+        </section>
+        
+        <section id="info" class="bit-30">
+            <figure><img src="saga.png" alt="Old books" /></figure>
+            <h1>Our Saga</h1>
+            <ul style="list-style: none;">
+                <li>Chapter I: The Seed</li>
+                <li>Chapter II: <a href="#the-road">The Road to Lino Lakes</a></li>
+            </ul>
+            <h2 id="the-seed">The Seed</h2>
+            <p>We actually believe that our saga begins with the first beer out the door, but let us take a minute to let you know how we got here. Like many dreams, particularly those that involve beer, the idea for HammerHeart established itself humbly in the minds its founders and brothers-in-law Nathaniel Chapman and Austin Lunn towards the end of the last decade. In the early stages, one of our hurdles was to convince Austin to venture north to Minnesota from Kentucky (The South) with Bekah (Nathaniel's Sister) and their baby boy Hokan. We also felt that obtaining some form of commercial experience was critical to our ability to keep the doors open and was needed before pursuing this journey. There are a few thousand successful examples of upstart breweries in the United States alone so we knew it we doable, but everyone's path is different and we simply had to find ours.</p>
+
+            <p>At this point in the story, it is important to get to know our Head Brewer Austin. His last name originates from the Norse word Lundr, or "one who lives in the forest", and he has committed his life to living in the image of his distant Northern European ancestors (Nathaniel is also of Scandinavian heritage, but that detail is not part of this story). In 2009, Austin and Bekah were handfasted and took a little trip to Norway to celebrate. While there, they stopped into a little brewery called Haand Bryggeriet, one of Austin's favorites, and volunteered for the day doing whatever engaging tasks they were asked to perform. Austin and Bekah developed a good relationship with Haand on that day and thanked them for the opportunity. Back to the current time...we are sitting around thinking about how get this brewery up off the ground and Nathaniel's mother suggests: "Austin, why don't you just go work at that brewery in Norway?". Simple? In theory no, but someone or some thing was favoring us in that moment. Austin wrote to Haand's owner, Jens, and asked if he could apprentice in the Fall/Winter of 2011. A few burst hoses and scorched sacks later, Austin returned with more experience and knowledge than he could have ever hoped to gain from one of the most creative breweries in the world. HammerHeart will be forever in debt to Haand for giving Austin this opportunity.</p>
+
+            <p>Austin moved to Minnesota in the Summer of 2012 with Bekah and Hokan, leaving behind everything he knows and loves for this dream we call HammerHeart!</p>
+
+            <h2 id="the-road">The Road to Lino Lakes</h2>
+            <p>After Austin returned from Norway, we started our search for a place to call home. This was at the time when breweries in Minnesota were being announced on a rather frequent basis. While we knew who we were, finding an area that might eventually be able to call us one of their own, and a building that we could identify with was a challenge. Nathaniel started inquiring about a building in Lino Lakes, just 20 minutes north of Minneapolis/St.Paul. While this particular building had been sold the week prior, he maintained communication with Lino's community developer, Mary, about other opportunities in Lino Lakes. During this time, Nathaniel discovered that Lino Lakes was in fact updating its ordinances to reflect the recent MN State legislation changes in order to try and lure in a brewery, awesome. Mary ended up finding a building owner in the planning stages of making a move and put us in contact with him. We toured the building and were sold...it had a pond in the back and stars in the sky, all we could ever want. We anticipate developing a great relationship with Lino Lakes and the surrounding area, and intend to make them proud.</p>
+
+            <p>So...here we are today...is our beer any good? We sure hope so. Our beer is influenced by the beauty of the lakes of Minnesota to the wondrous mountains of Norway. We love beer, Nordic history, vast forests, epic mountains, and the lakes. You may have noticed quite a few breweries who have been inspired by lakes and mountains...we differentiate ourselves by actually trying to put all of that in a bottle. Our hope is to earn the title of "craft brewery" from those that drink our beer, and to help keep the flame of craft beer burning all across the world. Drikke opp! SkÃ¥l!</p>
+
+            <p><span class="signature">-Austin and Nathaniel</span></p>
+        </section>
+    </div>
+    <footer class="site-footer">
+                <div class="social bit-2">    
+           <a href="https://www.facebook.com/HammerHeartBrewingCompany"><img src="facebook.png" alt="Facebook" /></a>
+           <a href="http://twitter.com/HammerHeartBeer"><img src="twitter.png" alt="Twitter" /></a>
+        </div>
+        <div class="copyright bit-2">
+            HammerHeart Brewing Company &copy; 2012
+        </div>
+    </footer>
+</body>

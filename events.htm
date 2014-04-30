@@ -1,0 +1,98 @@
+<!-- 
+
+    AUTHOR: Jenny Coffman
+    DATE: 04/29/14
+    PROJECT: Web Design & Development I, Final Project
+    GOAL: Make a website of my own choosing utilizing all of the material
+    covered in class. Display basic knowledge of HTML and CSS
+
+-->
+
+<!DOCTYPE html>
+<head>
+    <title>Hammerheart Brewing Company: Upcoming Events</title>
+    <link href="grid.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="http://use.edgefonts.net/carme:n4:all;dawning-of-a-new-day:n4:all;unifrakturcook:n7:all.js"></script>
+    
+    <style type="text/css">
+        
+        body {
+            color: #000;
+        }
+        
+        header {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            background-color: #000000;
+            height: 100px;
+            width: 100%;
+            z-index: 1000;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container" class="page-wrap">
+        <header>
+            <div id="logo" class="bit-2" style="float: left">
+                <img src="text-logo.png" alt="Hammerheart logo" />
+            </div>
+            <nav class="bit-2">
+                <ul>
+                    <li><a href="index.htm">HOME</a></li>
+                    <li><a href="saga.htm">OUR SAGA</a></li>
+                    <li><a href="beer.htm">THE BEERS</a></li>
+                    <li><a href="events.htm">UPCOMING EVENTS</a></li>
+                    <li><a href="contact.htm">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="image-events" class="bit-70">
+        </section>
+        
+        <section id="info" class="bit-30">
+            <figure><img src="horn.png" alt="Horn"/></figure>
+            <h1>Upcoming Events</h1>
+            
+            <h2 style="padding-top: 25px">Food Trucks</h2>
+            <p>We try to get food trucks here every Friday and Saturday. Keep an eye out on the schedule, we get something new in every weekend!</p>
+            
+            <table summary="Schedule for food trucks on the premsises" width="100%" border="0">
+                <tbody>
+                <tr>
+                    <th>May 2nd</th>
+                    <th>4-9 PM</th>
+                    <th><a href="http://www.potterspasties.com/">Potter's Pasties</a></th>
+                </tr>
+                <tr class="gray">
+                    <th>May 9th</th>
+                    <th>4-9 PM</th>
+                    <th><a href="http://hotindianfoods.com/">Hot Indian</a></th>
+                </tr>
+                <tr>
+                    <th>May 16th</th>
+                    <th>4-9 PM</th>
+                    <th><a href="http://cajun2geaux.com/">Cajun 2 Geaux</a></th>
+                </tr>
+                <tr class="gray">
+                    <th>May 23rd</th>
+                    <th>4-9 PM</th>
+                    <th><a href="http://www.themoralomnivore.com/">The Moral Omnivore</a></th>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <footer class="site-footer">
+        <div class="social bit-2">    
+           <a href="https://www.facebook.com/HammerHeartBrewingCompany"><img src="facebook.png" alt="Facebook" /></a>
+           <a href="http://twitter.com/HammerHeartBeer"><img src="twitter.png" alt="Twitter" /></a>
+        </div>
+        <div class="copyright bit-2">
+            HammerHeart Brewing Company &copy; 2012
+        </div>
+    </footer>
+</body>
