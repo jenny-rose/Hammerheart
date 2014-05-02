@@ -70,21 +70,26 @@ RESPONSIVE COLUMNS
 @media (min-width: 800px) and (max-width: 1100px) {
   .bit-2,
   .bit-7 {
-    width: 100%;
-  }
+      width: 100%;
+    }
  
     .bit-4,
     .bit-8,
     .bit-10,
     .bit-12,
     .bit-30,
-    .bit-70{
-    width: 50%;
-  }
+    .bit-70 {
+        width: 50%;
+    }
     
     header .bit-2 {
         text-align: center;
+        }
+    
+    header nav ul {
+        text-align: center;
     }
+    
     footer .bit-2 {
         text-align: center;
     }
@@ -130,6 +135,11 @@ RESPONSIVE COLUMNS
     header .bit-2 {
         text-align: center;
     }
+    
+    header nav ul {
+        text-align: center;
+    }
+    
     footer .bit-2 {
         text-align: center;
     }
@@ -157,6 +167,10 @@ RESPONSIVE COLUMNS
   }
     
     header .bit-2 {
+        text-align: center;
+    }
+    
+    header nav ul {
         text-align: center;
     }
     

@@ -71,21 +71,18 @@ header img {
     padding-top: 15px;
 }
 
-nav {
-    background-color: #000;
-    float: right;
-    height: 75px;
-    width: 600px;
-    }
+#nav-wrapper {
+    background-color: #000;}
 
 nav ul {
-    float: right;
+    text-align: right;
     list-style: none;
     line-height: 4.5em;
     margin-right: 30px;
     }
 
 nav ul li {
+    font-size: 12px;
     padding-left: 30px;
     display: inline;
 }
@@ -170,7 +167,7 @@ footer {
     background-color: #000;
     bottom: 0px;
     color: #666;
-    line-height: 3em;
+    line-height: 4em;
     position: fixed;
     width: 100%;
     z-index: 1000;
